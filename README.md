@@ -1,6 +1,6 @@
 # citacoes
 
-A basic calculator made with Vue.js
+An application for demonstrating motivational phrases
 
 ## Main features
 ### Citacoes
