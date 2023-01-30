@@ -1,24 +1,30 @@
 <template>
 	<div id="app">
-		<span>
-			<button @click="componente = 'Quotes'">Quotes</button>
-			<button @click="componente = 'About'">About</button>
-		</span>
 		<keep-alive>
-			<component :is="componente"></component>
+			<component :is="component"></component>
 		</keep-alive>
+		<span>
+			<button @click="toogle">{{ component }}</button>
+		</span>
+		<Footer />
 	</div>
 </template>
 
 <script>
 import Quotes from './components/Quotes.vue'
 import About from './components/About.vue'
+import Footer from './components/Footer.vue'
 
 export default {
-	components: { Quotes, About },
+	components: { Quotes, About, Footer },
+	methods: {
+		toogle() {
+			this.component = this.component === 'Quotes' ? 'About' : 'Quotes'
+		}
+	},
 	data() {
 		return {
-			componente: 'Quotes'
+			component: 'Quotes'
 		}
 	},
 }
