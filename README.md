@@ -1,10 +1,13 @@
-# citacoes
+# quotes
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='vue.js' src='https://img.shields.io/badge/Vue-100000?style=for-the-badge&logo=vue.js&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='vite' src='https://img.shields.io/badge/Vite-100000?style=for-the-badge&logo=vite&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='CSS3' src='https://img.shields.io/badge/CSS3-100000?style=for-the-badge&logo=CSS3&logoColor=white&labelColor=black&color=black'/></a>
 
 An application for demonstrating motivational phrases
 
 ## Main features
-### Citacoes
-![](./citacoes.gif)
+### Quotes
+![](./quotes.gif)
 
 ### Prerequisites
 
@@ -16,7 +19,7 @@ OR
 ## Getting Started
 ### Clone the repository
 ```
-git clone https://github.com/EmersonBraun/citacoes.git
+git clone https://github.com/EmersonBraun/quotes.git
 ```
 
 ### Install the dependencies

@@ -1,7 +1,7 @@
 <template>
     <div>
-        <p class="nome">Citações</p>
-        <p class="versao">Versão 1.0</p>
+        <p class="nome">Quotes</p>
+        <p class="version">Version 1.0</p>
     </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
         font-weight: bold;
     }
 
-    .versao {
+    .version {
         font-size: 1.4rem;
     }
 </style>
