@@ -1,8 +1,8 @@
 <template>
 	<div id="app">
 		<span>
-			<button @click="componente = 'Citacoes'">Citações</button>
-			<button @click="componente = 'Sobre'">Sobre</button>
+			<button @click="componente = 'Quotes'">Quotes</button>
+			<button @click="componente = 'About'">About</button>
 		</span>
 		<keep-alive>
 			<component :is="componente"></component>
@@ -11,14 +11,14 @@
 </template>
 
 <script>
-import Citacoes from './components/Citacoes'
-import Sobre from './components/Sobre'
+import Quotes from './components/Quotes.vue'
+import About from './components/About.vue'
 
 export default {
-	components: { Citacoes, Sobre },
+	components: { Quotes, About },
 	data() {
 		return {
-			componente: 'Citacoes'
+			componente: 'Quotes'
 		}
 	},
 }
